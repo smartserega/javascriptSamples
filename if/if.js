@@ -4,6 +4,7 @@ function f1(){
   p = document.getElementById('out');
   n = parseInt(n);
   if (n==100){
+    
     p.innerHTML = 'Number equial to 100';
   }
 
