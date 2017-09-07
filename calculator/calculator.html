@@ -10,11 +10,18 @@
 	</head>
 
   <body>
-
-		<div class="main_menu">
+		
+	<div class="main_menu">
+		
+		
 		<br>
-		<p>Число1: <input type= "text" id="n1"></p>
-		<p>Число2: <input type= "text" id="n2"></p>
+		<span id="doc_time" = "">Date and time</span>
+		
+		<script type="text/javascript">clock();</script>
+		
+		<br>
+		<p><strong>Number 1: </strong><input type= "number" id="n1"></p>
+		<p><strong>Number 2: </strong><input type= "number" id="n2"></p>
 
 		<table margin=20111px padding=2111px border="0">
 			<tr>
@@ -24,11 +31,11 @@
 				<td><button onclick="devision()">/</button></td>
 			</tr>
 		</table>
-		</div>
-
+		
+	</div>
 		<hr>
-		<p id="out"> Результат</p>
-
+		<p id="out"><strong> Result: </strong></p>
+	
 
   </body>
 

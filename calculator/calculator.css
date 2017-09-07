@@ -1,14 +1,26 @@
-body{
-  background-color: #f3f9ee;
 
-  float: center;
+
+body::after {
+	content: "";
+	background-image: url(http://luxfon.com/large/201203/1205.jpg); 
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: -1;  
+    background-size: 100%; 
 }
+
 
 table{
     padding-left: 60px;
 }
 
-.main_menu{
-  background-color: #dddddd;
-
+#doc_time{
+    position: absolute;
+    left: 100%;
+    margin-left: -240px;
 }
+
