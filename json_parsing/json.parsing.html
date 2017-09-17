@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JSON Parsing</title>
+</head>
+
+<body>
+	<h1>Json parser</h1>
+	<h5>convert json into string</h5>
+	<p id="demo"></p>
+	<script type="text/javascript">
+	
+		
+		
+		var txt = '{"name" : "serega", "email" : "abc@mail.com"}';
+		var parsedtxt = JSON.parse(txt);
+		document.getElementById('demo').innerHTML = parsedtxt.name + "<br>"+"<h5>convert string into json</h5>";
+		
+		var books = {
+			title : 'math',
+			year : "2017",
+			edition : 7
+			};
+		var stringifytxt = JSON.stringify(books);
+		
+		document.getElementById('demo').innerHTML += stringifytxt;
+		
+	</script>
+		
+</body>
+</html>
