@@ -1,0 +1,56 @@
+Треугольник
+for (var line = "#"; line.length < 8; line += "#")  console.log(line);
+
+или через while
+
+var i = "#";
+while (i.length <= 7){
+console.log(i);
+i = i + "#";
+}
+
+
+
+Шахматная доска
+var line = "#"
+while (line.length < 8)
+{line += "#"} console.log(text);
+
+Шахматная доска
+
+var i = 0;
+while (i<8){
+	if(i%2==0){
+	var line = "#"
+		while (line.length < 8){
+			if (line.length % 2 ==1)
+			line += " ";
+			if (line.length % 2 ==0)
+			line += "#";
+
+		}
+		console.log(line);
+	}
+
+
+
+	if(i%2==1){
+	var line = " "
+		while (line.length < 8){
+			if (line.length % 2 ==1)
+			line += "#";
+			if (line.length % 2 ==0)
+			line += " ";
+
+		}
+		console.log(line);
+	}
+	i=i+1;
+}
+
+
+Делим на пять но не делим на три
+for (var i = 1; i<100; i ++)
+if (i%5==0 && !i%3==0) {console.log(i, "делится на 5 но не делится на три")}
+else if (i%3==0) {console.log(i, "делится на три")}
+else {console.log(i);}
