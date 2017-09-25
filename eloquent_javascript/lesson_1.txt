@@ -1,4 +1,5 @@
-Треугольник
+Lesson 1
+1. Треугольник
 for (var line = "#"; line.length < 8; line += "#")  console.log(line);
 
 или через while
@@ -11,7 +12,7 @@ i = i + "#";
 
 
 
-Шахматная доска
+2. Шахматная доска
 var line = "#"
 while (line.length < 8)
 {line += "#"} console.log(text);
@@ -49,7 +50,7 @@ while (i<8){
 }
 
 
-Делим на пять но не делим на три
+3. Делим на пять но не делим на три
 for (var i = 1; i<100; i ++)
 if (i%5==0 && !i%3==0) {console.log(i, "делится на 5 но не делится на три")}
 else if (i%3==0) {console.log(i, "делится на три")}
