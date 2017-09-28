@@ -1,0 +1,36 @@
+Lesson 3
+
+1. Добавление элементов к массиву
+
+var a = 0;
+var b = 4;
+
+function range (){
+var arr = [1,2,3];
+arr.push(b);
+arr.unshift(a);
+
+console.log(arr);
+}
+range ()
+
+2. Сумма элементов массива
+
+var arr = [1,2,3,4,5,6,7,8,9,10];
+function sum(){
+	var sum = 0;
+		for (var i =0; i<arr.length; i++){
+		sum += arr[i];
+		}
+	console.log(sum);
+	}
+sum();
+
+3. Массив вспять
+
+var arr = [1,2,3,4,5,6,7,8,9,10];
+function reverse(){
+	var a = arr.reverse();
+	console.log(a);
+	}
+reverse();
