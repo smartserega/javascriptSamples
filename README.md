@@ -3,7 +3,7 @@
 - To run any javascript sampe, please open HTML file in browser.
 
 List:
-- calculator	- simple calculator (plus, minus, multiplaxion, devision)	
+- '''calculator'''	- simple calculator (plus, minus, multiplaxion, devision)	
 - color_clock_real_time	- real time css clock
 - eloquent_javascript	- test task from book Eloquent Javascript
 - guess_number	- simple test program
