@@ -16,13 +16,12 @@ List:
 
 6.```if```	- test program
 
-7.```input```  -	initial - test program 
+7.```input```  -	initial - test program
 
 8.```json_parsing```	- test parsing sample
 
-9.```text_input``` - test program 
+9.```text_input``` - test program
 
-10.```tic_tac_toe``` - game tic_tac_toe 
+10.```tic_tac_toe``` - game tic_tac_toe
 
-
-
+12. ```tic_tac_toe``` - progress bar example
