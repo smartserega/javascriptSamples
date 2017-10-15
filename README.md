@@ -25,3 +25,5 @@ List:
 10.```tic_tac_toe``` - game tic_tac_toe
 
 12. ```tic_tac_toe``` - progress bar example
+
+13. ```mouse_coordinates``` - mouse_coordinates test example
